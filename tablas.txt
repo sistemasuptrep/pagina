@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo de tabla</title>
+        <link rel="stylesheet" href="tabla.css">
+    </head>
+
+    <body>
+        <div id="main-container">
+            <table>
+                <thead><!--Etiqueta de encabezado-->
+                    <tr><!--etiqueta de fila-->
+                        <th>Año</th>
+                        <th>Programa Operativo Anual</th>
+                        <th>Descargar</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>2022</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2021</td>
+                    <td>Programa Operativo Anual y Anexos </td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2021</td>
+                    <td>Programa Operativo Anual </td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2020</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2019</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+                    
+                <tr>
+                    <td>2018</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2017</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2016</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2015</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2014</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+                <tr>
+                    <td>2013</td>
+                    <td>Programa Operativo Anual</td>
+                    <td><img src="logo.jpg" width="50" height="50"></td>
+                </tr>
+
+            
+            </table>
+        </div>
+    </body>
+
+</html>
+
+-----------------------------------------------------------------------------------------------
+body{
+    background-color:#632432;
+    font-family: Arial;
+}
+#main-container{
+    margin: 150px auto;
+    width:600px;
+}
+
+table{
+    background-color:white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 10px;
+    
+}
+
+thead{
+    background-color:#222021;
+    border-bottom:solid 3px #828282;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: #EEEEEE;
+
+}

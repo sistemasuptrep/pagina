@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ventajas de estudiar en UPTREP</title>
+        <link rel="stylesheet" href="ventajas.css">
+    </head>
+    <body>
+        <h2>Las 10 ventajas de estudiar en esta Universidad</h2>
+        <div class="container">
+            <div class="ventajas">
+                
+                    <ul>
+                        <img src="cuadro1.png" width="60px" height="35px">
+                    <li>1.-Terminas tu carrera en 3 años 4 meses.</li><br>
+                    <li>2.-Laboratorios equipados altamente especializados.</li><br>
+                     <li>3.-Al terminar tus materias obtienes tu título.</li><br>
+                    </ul>
+                
+
+            </div>
+
+            <div class="ventajas">
+                
+                    <ul>
+                        <img src="edificio.png" width="100px" height="50px">
+                    <li>4.-Carreras con gran demanda en el mercado de trabajo.</li><br>
+                    <li>5.-Vinculación con empresas e instituciones.</li><br>
+                    <li>6.-Educación teórica y práctica relacionada con la problematica actual.</li><br>
+                    </ul>
+                
+                
+
+            </div>
+
+            <div class="ventajas">
+                
+                    <ul>
+                        <img src="medalla.jpg" width="75px" height="35px">
+                    <li>7.-Docentes altamente calificados. </li><br>
+                    <li>8.-Certificación bajo la norma ISO:2015. </li><br>
+                    <li>9.-Posibilidad de becas e intercambios con otras universidades.</li><br>
+                    <li>10.-Uso de plataformas virtuales para mejorar tu aprendizaje.</li><br>
+                    </ul>
+                
+
+            </div>
+        </div>
+    
+    </body>
+</html>
+---------------------------------------------------------------------------------------------------
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+
+}
+
+.ventajas{
+    width: 100%;
+    margin: 20px; /*margen*/
+    border-radius: 6px;/*esquinas del recuadro*/
+    overflow: hidden; /*elemento fuera del recuadro no aparezca*/
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);/*Sombra de cuadros*/
+    transition: all 400ms ease;
+    text-align: center;
+    color: black;
+}
+
+.ventajas:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.4);
+    transform:translateY(-3%);/*permite la accion de que los cuadros suban verticalmente cuando se le pasa el cursors*/
+}
+
+.ventajas h2{
+    text-align: center;
+}
