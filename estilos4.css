@@ -1,0 +1,42 @@
+body{
+    height: 100%;
+    background-image: url(../img/triangle-mosaic.png);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+img{
+    opacity: 1;
+}
+
+#main-container{
+    margin: 150px auto;
+    width:600px;
+}
+
+table{
+    background-color:white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 10px;
+    
+}
+
+thead{
+    background-color:#222021;
+    border-bottom:solid 3px #828282;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: #EEEEEE;
+}
+
+caption{
+    font-size: 250%;
+}
